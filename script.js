@@ -75,7 +75,7 @@ function generateWhatsAppMessage() {
 }
 
 document.getElementById("whatsapp-buy-btn").addEventListener("click", () => {
-    const phoneNumber = "6283120658571";
+    const phoneNumber = "6283170914410";
     const message = generateWhatsAppMessage();
     const url = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(url, "_blank");
